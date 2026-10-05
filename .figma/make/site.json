@@ -1,4 +1,8 @@
 {
+  "title": "Blush & Bloom | Beauty Salon Preview",
+  "icons": {
+    "icon": "/favicon.svg"
+  },
   "description": "Blush & Bloom Studio offers a polished online platform for salon services and bookings, making it easy for clients to schedule appointments and explore beauty treatments.",
   "robots": {
     "index": false

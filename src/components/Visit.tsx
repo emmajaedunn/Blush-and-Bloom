@@ -10,7 +10,7 @@ export default function Visit() {
             <SectionHeading eyebrow="Visit us">
               Come and <em className="text-berry">say hello</em>
             </SectionHeading>
-            <p className="-mt-4 mb-6 text-sm text-muted">All details below are placeholders for a fictional salon.</p>
+            <p className="-mt-4 mb-6 text-sm text-muted">Sample details for this salon preview.</p>
             <dl className="space-y-5 text-base">
               <div><dt className="text-xs font-semibold uppercase tracking-widest text-berry">Address</dt><dd className="mt-1">{SALON.address}</dd></div>
               <div><dt className="text-xs font-semibold uppercase tracking-widest text-berry">Hours</dt>
@@ -52,7 +52,7 @@ export default function Visit() {
           <div className="grid gap-8 pt-10 sm:grid-cols-3">
             <div>
               <p className="font-display text-2xl">Blush &amp; Bloom Studio</p>
-              <p className="mt-2 text-sm text-cream/75">A fictional salon. All content is sample.</p>
+              <p className="mt-2 text-sm text-cream/75">Salon preview. All content is sample.</p>
             </div>
             <nav aria-label="Footer" className="flex flex-wrap gap-x-6 gap-y-1 sm:flex-col">
               {[["Services", "#services"], ["Price List", "#prices"], ["About", "#about"], ["Contact", "#visit"]].map(([l, h]) => (

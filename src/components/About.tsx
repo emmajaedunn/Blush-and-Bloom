@@ -53,7 +53,7 @@ export default function About() {
           <div className="mb-10 max-w-2xl">
             <p className="mb-4 text-xs font-semibold uppercase tracking-[0.22em] text-blush-deep">Client love</p>
             <h2 className="font-display text-[2rem] font-light leading-[1.08] sm:text-5xl">Kind words <em className="text-blush-deep">(sample)</em></h2>
-            <p className="mt-4 text-sm text-cream/75">Fictional testimonials. Replace with real reviews before launch.</p>
+            <p className="mt-4 text-sm text-cream/75">Preview testimonials. Replace with real reviews before launch.</p>
           </div>
           <div className="grid gap-4 md:grid-cols-3">
             {QUOTES.map(([q, who], i) => (
